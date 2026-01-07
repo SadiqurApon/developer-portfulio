@@ -11,6 +11,9 @@
 .dark-2 {
     color: #474747;
 }
+.dark-3{
+    color: #757575;
+}
 
 .header{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
@@ -80,8 +83,34 @@ main{
     background-color: #FFF8F3;
     padding: 130px 150px;
     border-radius: 5px;
+    margin-top: 130px;
     
 }
-.section-title{
+.text-center{
     text-align: center;
+}
+.section-description{
+    font-size: 18px;
+    font-weight: 300;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item{
+    text-align: center;
+}
+/* What I do Seciton CSS */
+
+.skills{
+    margin-top: 130px;
+}
+.sills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
