@@ -69,3 +69,19 @@ nav a{
 .banner-writing-part{
     max-width: 580px;
 }
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about style */
+
+.about{
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+    border-radius: 5px;
+    
+}
+.section-title{
+    text-align: center;
+}
