@@ -123,3 +123,45 @@ main{
     gap: 70px;
     
 }
+.resume-culumn-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+.experience-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+.experience-sub-title{
+    font-weight: 700;
+    font-size: 20px;    
+}
+.experience-description{
+    font-weight: 300;
+    font-size: 18px;
+}
+/* footer part */
+
+.secondary-bg{
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+    
+}
+.footer-cumumn{
+    width: 50%;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+footer input[type="text"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    border: none;
+}
