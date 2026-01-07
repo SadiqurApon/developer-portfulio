@@ -12,6 +12,13 @@
     color: #474747;
 }
 
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin: 38px 71px 25px 23px;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -55,6 +62,10 @@ nav a{
 
 .container{
     display: flex;
-    align-items: center;
-    margin: 25px 52px 25px 230px;
+   justify-content: space-between;
+   margin: 0 35px 0 230px;
+   align-items: center;
+}
+.banner-writing-part{
+    max-width: 580px;
 }
