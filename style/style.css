@@ -171,16 +171,36 @@ footer input[type="text"], footer textarea{
 }
 
 @media screen and (max-width: 576px) {
-    .sills-container, .resume-container, .secondary-bg, .about-items{
+    .sills-container, 
+    .resume-container, 
+    .secondary-bg, 
+    .about-items, 
+    .container,
+    nav,
+    nav > ul {
         flex-direction: column;
     }
+
     .secondary-bg, .about {
         padding: 20px;
     }
     .footer-culumn{
         width: auto;
     }
-    footer input[type="text"],  footer textarea{
+    footer input[type="text"],  
+    footer textarea{
         width: calc(100% - 40px);
+    }
+    .header{
+        background-image: none;
+    }
+    .container, nav{
+        margin: 20px;
+    }
+    .banner-image{
+        width: 100%;
+    }
+    .btn-primary{
+        margin-bottom: 10px;
     }
 }
